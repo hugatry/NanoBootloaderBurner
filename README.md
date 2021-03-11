@@ -24,5 +24,6 @@
  * Tools->Processor->ATmega328p (Or ATmega168p, if your Nano has that MCU)
  * Tools->Programmer->"Arduino as ISP"
  * Tools->Port-> The com port of the programmer
+ 
  Then you can plug the Nano to the programmer, and select Tools->"Burn bootloader" in Arduino IDE to program the fresh bootloader to your Nano.
  

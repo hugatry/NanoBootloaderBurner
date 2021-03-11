@@ -2,8 +2,10 @@
  Hardware programmer for programming (bootloader to) Arduino Nano compatible development board
  Purpose of this repository is to share the design files for board shown in my YouTube video: [https://youtu.be/Mxi_6IfEGUE](https://youtu.be/Mxi_6IfEGUE)
  
- This programmer is ment to be super simple and it works in it's current form. Possible "bug fixes" may be committed at some point, but otherwise this project is considered finished.
  Holes for the target Nano have been increased to 1.1mm, which should allow using cheap pogo-pins instead of female headers. This modification hasn't been tested yet.
+ 
+ This programmer is ment to be super simple and it works in it's current form. Possible "bug fixes" may be committed at some point, but otherwise this project is considered finished.
+ 
 ## Firmware
  For firmware, you can use "ArduinoISP" -example sketch that comes with the Arduino IDE. 
  Pin configuration is following (Can be found around line 75 in example sketch, edit if needed):
